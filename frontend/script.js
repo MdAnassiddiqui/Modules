@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 function fetchCountries() {
-    console.log("Fetching countries...");
+  
     fetch("http://localhost:3000/api/countries")
         .then(response => {
             if (!response.ok) {
@@ -25,7 +25,7 @@ function fetchCountries() {
             return response.json();
         })
         .then(countries => {
-            console.log("Countries fetched successfully:", countries); 
+           
             const countryDropdown = document.getElementById("country");
             countryDropdown.innerHTML = "<option value=''>Select Country</option>";
             countries.forEach(country => {
@@ -41,11 +41,11 @@ function fetchCountries() {
 
 
 function fetchStates() {
-    console.log("Fetching states...");
+   
     const country = document.getElementById("country").value;
-    console.log(country);
+    
     const stateDropdown = document.getElementById("state");
-    console.log(stateDropdown)
+  
     
     
     stateDropdown.innerHTML = "<option value=''>Select State</option>";
@@ -81,7 +81,7 @@ function fetchStates() {
 
 
 function fetchCities() {
-    console.log("Fetching cities...");
+   
     const state = document.getElementById("state").value;
     const cityDropdown = document.getElementById("city");
 
@@ -90,7 +90,7 @@ function fetchCities() {
     fetch(`http://localhost:3000/api/cities?state=${state}`)
         .then(response => response.json())
         .then(cities => {
-            console.log("Cities fetched successfully:", cities);
+           
             cities.forEach(city => {
                 const option = document.createElement("option");
                 option.text = city.name;

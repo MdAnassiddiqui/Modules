@@ -17,7 +17,7 @@ const DataHandler = {
             const data = await response.json();
             return data;
         } catch (error) {
-            console.error("Error saving user data:", error);
+           
             throw new Error("Failed to save user data");
         }
     }
