@@ -1,0 +1,31 @@
+{
+    "IN": {
+      "AP": [
+        { "name": "Hyderabad" },
+        { "name": "Visakhapatnam" },
+        { "name": "Vijayawada" }
+      ],
+      "AR": [
+        { "name": "Itanagar" },
+        { "name": "Naharlagun" }
+      ],
+      "AS": [
+        { "name": "Guwahati" },
+        { "name": "Silchar" },
+        { "name": "Dibrugarh" }
+      ]
+    },
+    "US": {
+      "AL": [
+        { "name": "Birmingham" },
+        { "name": "Montgomery" },
+        { "name": "Huntsville" }
+      ],
+      "AK": [
+        { "name": "Anchorage" },
+        { "name": "Fairbanks" },
+        { "name": "Juneau" }
+      ]
+    }
+  }
+  

@@ -1,0 +1,12 @@
+{
+    "IN": [
+      { "name": "Andhra Pradesh", "code": "AP" },
+      { "name": "Arunachal Pradesh", "code": "AR" },
+      { "name": "Assam", "code": "AS" }
+    ],
+    "US": [
+      { "name": "Alabama", "code": "AL" },
+      { "name": "Alaska", "code": "AK" }
+    ]
+  }
+  
