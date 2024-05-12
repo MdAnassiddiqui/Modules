@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 const fs = require("fs");
 const path = require("path");
-const { validateUserInput } = require("../middleware/validationMiddleware"); // Import the validation middleware
+const { validateUserInput } = require("../middleware/validationMiddleware"); 
 
 const countries = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "countries.json")));
 const states = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "data", "states.json")));
