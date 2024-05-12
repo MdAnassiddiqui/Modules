@@ -54,7 +54,7 @@ function validateDOB(dob) {
     if (age < 15 || age >= 99) {
         return "Age must be between 15 and 99";
     }
-    return null; // No validation error
+    return null; 
 }
 
 function validateUserInput(req, res, next) {
